@@ -36,7 +36,7 @@ extract_args $*
 
 ### read-only variables
 
-readonly abs_path=$(cd $(dirname $0) && pwd)
+readonly abs_dirname=$(cd $(dirname $0) && pwd)
 
 ## main
 
