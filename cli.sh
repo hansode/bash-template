@@ -30,13 +30,13 @@ function extract_args() {
 
 ## variables
 
-### prepare
-
-extract_args $*
-
 ### read-only variables
 
 readonly abs_dirname=$(cd $(dirname $0) && pwd)
+
+### prepare
+
+extract_args $*
 
 ## main
 
