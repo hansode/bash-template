@@ -1,2 +1,5 @@
 # -*-Shell-script-*-
 #
+# requires:
+#  bash
+#
