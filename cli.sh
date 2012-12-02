@@ -25,7 +25,7 @@ extract_args $*
 
 ## main
 
-cmd="$(echo ${CMD_ARGS} | sed "s, ,\n,g" | head -1)"
+declare cmd="$(echo ${CMD_ARGS} | sed "s, ,\n,g" | head -1)"
 
 case "${cmd}" in
 *)
