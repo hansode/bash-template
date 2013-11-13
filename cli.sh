@@ -6,6 +6,7 @@
 #  sed, head
 #
 set -e
+set -o pipefail
 
 ## private functions
 
